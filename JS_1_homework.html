@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JS-1-homework</title>
+</head>
+<body>
+<script>
+    // - Створити змінні. Присвоїти кожному з них значення: 'hello','owu','com', 'ua', 1, 10, -999, 123, 3.14, 2.7, 16, true, false.
+        // Вивести кожну змінну за допомогою: console.log , alert, document.write
+    let greeting='hello';
+    let nick='owu';
+    let domen1='com';
+    let domen2='ua';
+    let number1=1;
+    let number2=10;
+    let number3=-999;
+    let number4=123;
+    let number5=3.14;
+    let number6=2.7;
+    let number7=16;
+    let x=true;
+    let y=false;
+    console.log(greeting)
+    console.log(nick)
+    console.log(domen1)
+    console.log(number1)
+    console.log(x)
+    console.log(y)
+        // // alert(greeting)
+    // // alert(nick)
+    // // alert(x)
+    document.write(greeting, ' ', nick)
+
+    // - Переприсвоїти кожній змінній з завдання значення на довільне.
+        // Вивести кожну змінну за допомогою: console.log , alert, document.write
+    greeting='hi';
+    nick='okten';
+    number1=100500;
+    x=false;
+    y=true;
+    console.log(greeting)
+    console.log(nick)
+    console.log(number1)
+    console.log(x)
+    console.log(y)
+    document.write(greeting, ' ', nick)
+
+    // - Створити 3 змінних firstName, middleName, lastName, наповнити їх своїм ПІБ. З'єднати їх в одну змінну person. (Не об'єкт)
+    let firstName='Olga';
+    let middleName='Vitaliivna';
+    let lastName='Snurnikova';
+    let person=firstName+' '+middleName+' '+lastName;
+    console.log(person)
+
+    // За допомогою 3х різних prompt() отримати 3 слова які являються вашими Імям, По-Батькові та роками.
+        // Вивести "Вітаю *Імя* *По батькові*. Тобі *вік* років".
+    // let myFirstName=prompt('Name')
+    // let myMiddleName=prompt('Midle Name')
+    // let myLastName=prompt('Last Name')
+    // let personOfMe=myFirstName+' '+myMiddleName+' '+myLastName
+    // console.log(person)
+
+    // - За допомогою оператора typeof визначити типи наступних змінних та вивести їх в консоль.
+        // let a = 100; let b = '100'; let c = true;
+
+        let a = 100;
+        let b = '100';
+        let c = true;
+        console.log(typeof a)
+        console.log(typeof b)
+        console.log(typeof c)
+        // - Визначити відповідний оператор в виразах що б вийшов відповідний результат.
+        // В однакових виразах не використовувати однакові
+    // оператори!!!
+    console.log(5 < 6)
+    console.log(5 > 6)
+    console.log(5 == 6)
+    console.log(5 === 6)
+    console.log(10===10)
+    console.log(10>=10)
+    console.log(10<10)
+    console.log(10==='10')
+    console.log(10!=10)
+    console.log(123==='123')
+    console.log(123=='123')
+    // - Подумайте Какие значения выведет в окно браузера следующий фрагмент кода?  и почему?
+    let str = "20";
+    let p = 5;
+    document.write(str + p + "<br/>");
+    document.write(str - p + "<br/>");
+    document.write(str * "2" + "<br/>");
+    document.write(str/2 + "<br/>");
+
+</script>
+</body>
+</html>

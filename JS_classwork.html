@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JS-1-classwork</title>
+</head>
+<body>
+<script>
+    // 1. Створити масив з 10 чисел (можна використовувати Math.random Та Math.floor). Скласти результат цих чисел в змінній result.
+        let array1 = [1, 10, 3, 5, 10, 11, 100, 200, 1000, 10010];
+        console.log(array1);
+        let result = array1[0]+array1[1]+array1[2]+array1[3]+array1[4]+array1[5]+array1[6]+array1[7]+array1[8]+array1[9];
+        console.log(result);
+
+    // 2. Створити об'єкт book з наступними полями  - назва, кількість сторінок, жанр
+     let book1 = {
+         name: 'Cobzar',
+         numberOfPages: 600,
+         genre: 'liric'
+     }
+    console.log(book1)
+
+    // 3. Створити об'єкт book з наступними полями  - назва, кількість сторінок, жанр, автори
+    let book2 = {
+        name: 'George and the Unbreakable Code',
+        numberOfPages: 200,
+        genre: 'novel',
+        authors:{
+            fistAuthor: 'Stephen Hawking',
+            secondAuthor: 'Lucy Hawking'
+        }
+    }
+    console.log(book2)
+    // 4. Створити маис об'єктів book з наступними полями  - назва, кількість сторінок, жанр, автори. Вивести кожну книгу як окремий об'єкт
+    let books =[book1,book2]
+    console.log(books)
+    console.log(books[0])
+    console.log(books[1])
+    console.log(books[1].genre)
+
+    // 5. Напишіть код, який вираховує площу прямокутника висотою 23см. (змінна height) та шириною 10см (змінна width).
+    // Значення площі зберігати в змінній s.
+    let rectangleHeight=23;
+    let rectangleWidth=10;
+    let rectangleSquare=rectangleHeight*rectangleWidth;
+    console.log(rectangleSquare);
+
+    // 6. Напиши код, який знаходить об'єм циліндра заввишки 10м (змінна heightC) та діаметром основи 4м (dC),
+    // результат помістіть у змінну v.
+    let heightC=10;
+    let dC=4;
+    let v=3.14*dC*dC*heightC/4;
+    console.log('app.', v.toFixed(2), 'cubic meter')
+
+
+    // 7. У прямокутного трикутника дві сторони n (зі значенням 3) та m (зі значенням 4).
+    // Знайдіть гіпотенузу k за теоремою Піфагора (потрібно використовувати функцію Math.pow (число, ступінь) або оператор зведення в ступінь **).
+    let n=3;
+    let m=4;
+    let k=Math.pow((Math.pow(n,2)+Math.pow(m,2)),0.5)
+    console.log(k)
+</script>
+</body>
+</html>
